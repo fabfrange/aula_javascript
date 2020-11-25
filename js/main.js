@@ -1,4 +1,61 @@
 
+function clicado(){
+    document.getElementById("agradecimento").innerHTML="<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://globallabs.academy/");
+    window.location.href = "https://globallabs.academy/";
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML="Obrigado por passar o mouse";
+    //alert("trocar texto");
+    elemento.innerHTML="Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML="Passe o mouse aqui";
+    elemento.innerHTML="Passe o mouse aqui";
+}
+
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+/*var validar;
+function validaIdade(idade){
+    
+    if(idade>=18){
+        validar=true;
+    }else{
+        validar=false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+validaIdade(idade)
+console.log(validar);
+*/
+
+/*function soma(n1, n2){
+    return n1+n2;
+}
+
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+
+alert(soma(5, 10));
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
+
 
 
 /*var d=new Date();
